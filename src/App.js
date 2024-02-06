@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'
+import Count from './components/Count';
+import Display from './components/Display';
+import InputValue from './components/InputValue';
+import InputPractik from './components/InputPractik';
+import ButtonCount from './components/ButtonCount';
+import FormInput from './components/FormInput';
+import FormSubmit from './components/FormSubmit';
+import HookForm from './components/HookForm';
+import FormHook from './components/hook-components/FormHook';
+import Message from './components/module-css/Message';
+import Profile from './components/module-css/Profile';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Count/>
+      <Display/>
+      <hr />
+      <InputValue/>
+      <hr />
+      <br />
+      <InputPractik/>
+      <ButtonCount/>
+      <hr />
+      <FormInput />
+      <hr />
+      <FormSubmit />
+      <hr />
+      <br />
+      <HookForm />
+      <hr />
+      <br />
+      <FormHook />
+      <hr />
+      <Message />
+      <Profile />
     </div>
   );
-}
+};
 
 export default App;

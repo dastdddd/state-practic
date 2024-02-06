@@ -1,0 +1,24 @@
+.item {
+  font-size: 40px;
+  color: red;
+}
+.item2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #506b8f;
+  padding: 20px 0;
+}
+.item3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #a5553d;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #dbd5d5;
+  cursor: pointer;
+}

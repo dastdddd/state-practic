@@ -1,0 +1,24 @@
+.item {
+  font-size: 55px;
+  color: rgb(7, 146, 69);
+}
+.item2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #209158;
+  padding: 20px 0;
+}
+.item3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #756350;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
